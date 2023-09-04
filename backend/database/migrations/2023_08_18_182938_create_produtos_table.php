@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('nome');
             $table->string('descricao');
             $table->integer('quantidade');
+            $table->float('preco', 8, 2);
             $table->string('imagem');
             $table->unsignedBigInteger('categoria_id');
             $table->timestamps();

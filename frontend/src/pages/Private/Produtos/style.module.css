@@ -1,0 +1,22 @@
+.produto > h1{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.table_container {
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+table {
+    --bs-table-bg: transparent !important;
+}
+
+table tbody td {
+    vertical-align: middle;
+}
+
+.produtoImagem{
+    max-height: 200px;
+}

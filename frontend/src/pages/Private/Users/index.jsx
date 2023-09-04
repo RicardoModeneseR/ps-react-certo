@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import styles from "./styles.module.css";
+import styles from "./style.module.css";
 
 import BaseApi from "../../../services/Api";
 import { useStateContext } from "../../../context/ContextProvider";

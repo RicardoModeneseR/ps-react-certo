@@ -18,9 +18,10 @@ class ProdutoFactory extends Factory
     {
         return [
             'nome'=>$this->faker->name,
-            'imagem'=>$this->faker->imageUrl(640, 480),
+            'imagem'=>$this->faker->imageUrl(250, 250),
             'descricao'=>$this->faker->name,
             'quantidade'=>$this->faker->numberBetween(1, 50),
+            'preco'=>$this->faker->numberBetween(1, 50),
             'categoria_id'=>$this->faker->numberBetween(1, 10),
         ];
     }

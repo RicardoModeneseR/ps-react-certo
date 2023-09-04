@@ -1,0 +1,44 @@
+.user {
+  font-size: 1rem;
+}
+
+.user > h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.edit, .delete {
+  padding: 5px;
+}
+
+.edit > i, .delete > i{
+  color: #FFFFFF;
+  font-size: medium;
+  border: none;
+}
+
+i {
+  display: inline;
+}
+
+input {
+  margin: 0;
+}
+
+.table_container {
+  display: block;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+table {
+  --bs-table-bg: transparent !important;
+}
+
+table tbody td {
+  vertical-align: middle;
+}
+
+
+
+

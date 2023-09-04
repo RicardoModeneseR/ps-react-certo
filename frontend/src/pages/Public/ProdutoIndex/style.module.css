@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap'); /* Fonte Comfortaa*/
+
+.productpage{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    color: var(--dark);
+    background: var(--light);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.productpage ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.productpage a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+}
+
+.productpage footer{
+    margin-top: auto;
+    width: 100%;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.productpage h1{
+    margin: 2rem;
+    display: grid;
+    gap: 1.2rem;
+    grid-template-columns: repeat(auto-fit,minmax(16rem,18rem));
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.wrapper{
+    margin: 2rem;
+    display: grid;
+    gap: 1.2rem;
+    grid-template-columns: repeat(auto-fit,minmax(16rem,18rem));
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.bag{
+    color: var(--sixth);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem !important;
+    margin-left: 20px;
+}
+
+.estrutura{
+    padding: 0 2rem;
+}
+
+.arrow{
+    display: flex;
+    color: #BBB09F;
+    font-size: 3rem !important;
+    position: absolute;
+    top: 50%;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa{
+    opacity: 1;
+    width: 35%;
+    height: 10px;
+    display: flex;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px 10px 10px 10px;
+    background: var(--first);
+    border-top: none;
+}
+
+.nomeproduto{
+    justify-self: center;
+    display: flex !important;
+    margin: 50px 0 0 0 !important;
+    font-size: 96px;
+}
+
+.Banner{
+    width: 100%;
+}
+
+.Banner img{
+    width: 100%;
+}
+
+@media screen and (max-width: 920px) {
+    .nomeproduto{
+        font-size: 56px;
+    }
+    .caixa{
+        height: 5px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nomeproduto{
+        font-size: 35px;
+    }
+}
